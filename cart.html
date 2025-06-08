@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koszyk - shopg</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="header banner-header">
+  <nav>
+    <div class="nav-left">
+      <a href="index.html">Strona Główna</a>
+      <a href="cart.html">Koszyk</a>
+      <a href="about.html">O nas</a>
+    </div>
+    <div class="nav-right">
+      <a href="login.html">Zaloguj</a>
+      <a href="register.html">Zarejestruj</a>
+    </div>
+  </nav>
+  <img src="assets/img/logo.png" class="logo" alt="shopg logo" style="margin-top:60px;">
+</div>
+<div style="display:flex;justify-content:center;align-items:center;min-height:60vh;">
+  <div style="max-width:500px;width:100%;background:#fff2;padding:30px;border-radius:10px;">
+    <h2>Koszyk - 1 produkt</h2>
+    <div style="display:flex;align-items:center;justify-content:space-between;">
+      <span>Elden Ring</span>
+      <span style="font-weight:bold;">$30.99</span>
+    </div>
+    <form class="cart-form">
+      <label>Kod Promocyjny</label>
+      <input type="text" name="promo">
+      <label>Ilość</label>
+      <select name="qty">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <button type="submit">Dodaj do koszyka</button>
+    </form>
+  </div>
+</div>
+<div class="footer">
+  <img src="assets/img/logo.png" class="logo" alt="shopg logo" style="width:120px; margin-bottom:10px; display:block; margin-left:auto; margin-right:auto;">
+</div>
+</body>
+</html> 
