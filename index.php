@@ -1,0 +1,26 @@
+<?php include 'includes/header.php'; ?>
+<h2 style="margin: 0 0 0 40px; padding-top: 20px;">Polecane dla Ciebie</h2>
+<div class="products">
+  <div class="product-card">
+    <img src="assets/img/eldenring.jpg" alt="Elden Ring" style="width:100%; border-radius:8px;">
+    <h3>Elden Ring</h3>
+    <p>Soulslike, RPG</p>
+    <p><b>$30.99</b></p>
+    <a href="product.php?id=1"><button>Zobacz</button></a>
+  </div>
+  <div class="product-card">
+    <img src="assets/img/gta5.jpg" alt="GTA V" style="width:100%; border-radius:8px;">
+    <h3>Grand Theft Auto V</h3>
+    <p>Przygodowa</p>
+    <p><b>$19.99</b></p>
+    <a href="product.php?id=2"><button>Zobacz</button></a>
+  </div>
+  <div class="product-card">
+    <img src="assets/img/cyberpunk.jpg" alt="Cyberpunk 2077" style="width:100%; border-radius:8px;">
+    <h3>Cyberpunk 2077</h3>
+    <p>RPG</p>
+    <p><b>$21.99</b></p>
+    <a href="product.php?id=3"><button>Zobacz</button></a>
+  </div>
+</div>
+<?php include 'includes/footer.php'; ?> 
