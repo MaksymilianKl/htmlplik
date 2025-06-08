@@ -1,4 +1,3 @@
-<html>
 <?php include 'includes/header.php'; ?>
 <h2 style="margin: 0 0 0 40px; padding-top: 20px;">Polecane dla Ciebie</h2>
 <div class="products">
@@ -25,4 +24,4 @@
   </div>
 </div>
 <?php include 'includes/footer.php'; ?> 
-</html>
+
